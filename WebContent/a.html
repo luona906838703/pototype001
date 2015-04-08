@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>BLC-EC</title>
+<link type="text/css" rel="stylesheet" href="./lib/bootstrap.min.css">
+<script type="text/javascript" src="./lib/jquery.js"></script>
+<script type="text/javascript" src="./lib/bootstrap.min.js"></script>
+<style type="text/css">
+.active{
+	background-color:red;
+}
+</style>
+<script type="text/javascript">
+_MI=null;
+$(document).ready(function(){
+	$("#m a").bind("click",function(event){
+		//清除上次选中的li的active
+		if(_MI!=null){
+			_MI.removeClass("active");
+		}
+		//为event.target的父元素也就是li添加active
+		$(event.target).parent().addClass("active");
+		_MI=$(event.target).parent();
+	});
+	
+});
+
+</script>
+</head>
+<body bgcolor="#0B7EB7">
+
+<span class="nav-topbar-arror"></span><br>
+
+	<ul class="nav navbar-nav" id="m">
+		<li><a href="#">任务管理</a></li>
+		<li><a href="#">分销商管理</a></li>
+		<li><a href="#">仓储管理</a></li>
+		<li><a href="#">商品管理</a></li>
+		<li><a href="#">用户管理</a></li>
+	</ul>
+	
+	
+
+
+<div class="row">
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="glyphicon glyphicon-arrow-down"></span>MENU</button>  
+    </div>
+        <div class="collapse navbar-collapse" id="collapse">
+            <ul class="nav navbar-nav">
+                <li class="active" class="dropdown"><a href="#" data-toggle="dropdown">Home<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Last Minute</a></li>
+                        <li><a href="#">News Letter</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </li>                    
+                <li class="dropdown"><a href="#" data-toggle="dropdown">Africa<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Info</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Flights</a></li>
+                        <li><a href="#">Ferry</a></li>
+                        <li><a href="#">Bus</a></li>
+                        <li><a href="#">Train</a></li>
+                        <li><a href="#">Overland</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#" data-toggle="dropdown">Destinations<span class="caret"></span></a>
+                    <ul class="dropdown-menu">      
+                        <li class="dropdown"><a href="#" data-toggle="dropdown">Burundi<span class="caret"></span></a>
+                            <ul class="dropdown-menu-right">
+                                <li><a href="#">Info</a></li>
+                                <li><a href="#">Bujumbura</a></li>
+                                <li><a href="#">Pacakges</a></li>
+                                <li><a href="#">Gorilla</a></li>
+                                <li><a href="#">Safaris</a></li>
+                                <li><a href="#">Hotels</a></li> 
+                                <li><a href="#">Transfers</a></li>
+                                <li><a href="#">Excursions</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#" data-toggle="dropdown">Kenya<span class="caret"></span></a>
+                            <ul class="dropdown-menu-right">
+                                <li><a href="#">Info</a></li>
+                                <li><a href="#">Nairobi</a></li>
+                                <li><a href="#">Mombasa</a></li>
+                                <li><a href="#">Pacakges</a></li>
+                                <li><a href="#">Safaris</a></li>
+                                <li><a href="#">Hotels</a></li> 
+                                <li><a href="#">Transfers</a></li>
+                                <li><a href="#">Excursions</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#" data-toggle="dropdown">Rwanda<span class="caret"></span></a>
+                            <ul class="dropdown-menu-right">
+                                <li><a href="#">Info</a></li>
+                                <li><a href="#">Kigali</a></li>
+                                <li><a href="#">Pacakges</a></li>
+                                <li><a href="#">Gorilla</a></li>
+                                <li><a href="#">Safaris</a></li>
+                                <li><a href="#">Hotels</a></li> 
+                                <li><a href="#">Transfers</a></li>
+                                <li><a href="#">Excursions</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#" data-toggle="dropdown">Tanzania<span class="caret"></span></a>
+                            <ul class="dropdown-menu-right">
+                                <li><a href="#">Info</a></li>
+                                <li><a href="#">Dar es Salaam</a></li>
+                                <li><a href="#">Arusha</a></li>
+                                <li><a href="#">Pacakges</a></li>
+                                <li><a href="#">Safaris</a></li>
+                                <li><a href="#">Kilimanjaro</a></li>
+                                <li><a href="#">Hotels</a></li> 
+                                <li><a href="#">Transfers</a></li>
+                                <li><a href="#">Excursions</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#" data-toggle="dropdown">Zambia<span class="caret"></span></a>
+                            <ul class="dropdown-menu-right">
+                                <li><a href="#">Info</a></li>
+                                <li><a href="#">Lusaka</a></li>
+                                <li><a href="#">Zambezi River</a></li>
+                                <li><a href="#">Pacakges</a></li>
+                                <li><a href="#">Safaris</a></li>
+                                <li><a href="#">Hotels</a></li> 
+                                <li><a href="#">Transfers</a></li>
+                                <li><a href="#">Excursions</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#" data-toggle="dropdown">Zanzibar<span class="caret"></span></a>
+                            <ul class="dropdown-menu-right">
+                                <li><a href="#">Info</a></li>
+                                <li><a href="#">Stonetown</a></li>
+                                <li><a href="#">Beach</a></li>
+                                <li><a href="#">Pacakges</a></li>
+                                <li><a href="#">Festivals</a></li>
+                                <li><a href="#">Hotels</a></li> 
+                                <li><a href="#">Transfers</a></li>
+                                <li><a href="#">Excursions</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Gallery</a></li>
+                <li class="dropdown"><a href="#" data-toggle="dropdown">Serene<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Reservations</a></li>
+                        <li><a href="#">Payments</a></li> 
+                        <li><a href="#">Admin</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#" data-toggle="dropdown">Members<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Specials</a></li>
+                        <li class="dropdown"><a href="#" data-toggle="dropdown">Rates<span class="caret"></span></a>
+                            <ul class="dropdown-menu-right">
+                               <li class="dropdown"><a href="#" data=toggle="dropdown">Burundi<span class="caret"></span></a>
+                                  <ul class="dropdown-menu-right">
+                                     <li><a href="#">Pacakges</a></li>
+                                     <li><a href="#">Hotels</a></li> 
+                                     <li><a href="#">Transfers</a></li>
+                                     <li><a href="#">Activities</a></li>
+                                  </ul>
+                               </li>
+                               <li class="dropdown"><a href="#" data-toggle="dropdown">Kenya<span class="caret"></span></a>
+                                  <ul class="dropdown-menu-right">
+                                     <li><a href="#">Pacakges</a></li>
+                                     <li><a href="#">Hotels</a></li> 
+                                     <li><a href="#">Transfers</a></li>
+                                     <li><a href="#">Activities</a></li>
+                                  </ul>
+                               </li>
+                               <li class="dropdown"><a href="#" data-toggle="dropdown">Rwanda<span class="caret"></span></a>
+                                  <ul class="dropdown-menu-right">
+                                    <li><a href="#">Pacakges</a></li>
+                                    <li><a href="#">Hotels</a></li> 
+                                    <li><a href="#">Transfers</a></li>
+                                    <li><a href="#">Activities</a></li>
+                                  </ul>
+                               </li>
+                               <li class="dropdown"><a href="#" data-toggle="dropdown">Tanzania<span class="caret"></span></a>
+                                  <ul class="dropdown-menu-right">
+                                    <li><a href="#">Pacakges</a></li>
+                                    <li><a href="#">Hotels</a></li> 
+                                    <li><a href="#">Transfers</a></li>
+                                    <li><a href="#">Activities</a></li>
+                                  </ul>
+                               </li>
+                               <li class="dropdown"><a href="#" data-toggle="dropdown">Zambia<span class="caret"></span></a>
+                                  <ul class="dropdown-menu-right">
+                                    <li><a href="#">Pacakges</a></li>
+                                    <li><a href="#">Hotels</a></li> 
+                                    <li><a href="#">Transfers</a></li>
+                                    <li><a href="#">Activities</a></li>
+                                  </ul>
+                               </li>
+                               <li class="dropdown"><a href="#" data-toggle="dropdown">Zanzibar<span class="caret"></span></a>
+                                  <ul class="dropdown-menu-right">
+                                    <li><a href="#">Pacakges</a></li>
+                                    <li><a href="#">Hotels</a></li> 
+                                    <li><a href="#">Transfers</a></li>
+                                    <li><a href="#">Activities</a></li>
+                                  </ul>
+                               </li>
+                             </ul>
+                         </li>
+                      <li><a href="#">Admin</a></li>
+                      <li><a href="#">High Resolutions Pictures</a></li>
+                  </ul>
+               </li>
+            </ul>             
+        </div>
+    </div>
+ </nav>
+	
+</body>

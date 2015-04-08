@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5486"
+   name=""
+   committed-date="2015-01-15T03:02:33.921875Z"
+   url="svn://193.168.1.99/Projects/TongFang/TFbiz/pototype/lib"
+   last-author="lichunjiang"
+   kind="dir"
+   repos="svn://193.168.1.99"
+   revision="5517"/>
+<entry
+   committed-rev="5528"
+   name="frame.css"
+   text-time="2015-01-27T08:48:54.888446Z"
+   committed-date="2015-01-27T08:49:16.062500Z"
+   checksum="56baf3409e18dc2ed27737b69ad5f818"
+   last-author="lichunjiang"
+   kind="file"
+   revision="5528"/>
+<entry
+   committed-rev="5486"
+   name="logo.png"
+   text-time="2015-01-13T10:33:14.786168Z"
+   committed-date="2015-01-15T03:02:33.921875Z"
+   checksum="1f9368916c7e2c01cb54dcd78e8e0320"
+   last-author="lichunjiang"
+   kind="file"
+   prop-time="2015-01-15T03:02:27.418221Z"/>
+<entry
+   committed-rev="5523"
+   name="frame.js"
+   text-time="2015-01-27T02:27:41.061172Z"
+   committed-date="2015-01-27T03:01:01.125000Z"
+   checksum="8a4576081f71718edab954107220fa25"
+   last-author="lichunjiang"
+   kind="file"
+   revision="5523"/>
+<entry
+   committed-rev="5523"
+   name="bootstrap.min.css"
+   text-time="2015-01-27T03:00:26.812606Z"
+   committed-date="2015-01-27T03:01:01.125000Z"
+   checksum="58a49b3689d699cb72ffda7252d99fcb"
+   last-author="lichunjiang"
+   kind="file"
+   revision="5523"/>
+<entry
+   committed-rev="5523"
+   name="bootstrap.min.js"
+   text-time="2015-01-27T03:00:42.858524Z"
+   committed-date="2015-01-27T03:01:01.125000Z"
+   checksum="046ba2b5f4cff7d2eaaa1af55caa9fd8"
+   last-author="lichunjiang"
+   kind="file"
+   revision="5523"/>
+<entry
+   committed-rev="5486"
+   name="jquery.js"
+   text-time="2015-01-13T09:58:45.216795Z"
+   committed-date="2015-01-15T03:02:33.921875Z"
+   checksum="ee092541bc79668e3e0a7b76d2faf00c"
+   last-author="lichunjiang"
+   kind="file"/>
+<entry
+   committed-rev="5486"
+   name="default.css"
+   text-time="2015-01-14T02:31:31.052107Z"
+   committed-date="2015-01-15T03:02:33.921875Z"
+   checksum="7ec2bd7fd6acb2665a071a72fa6c97f0"
+   last-author="lichunjiang"
+   kind="file"/>
+<entry
+   committed-rev="5523"
+   name="menu.css"
+   text-time="2015-01-26T10:35:16.012662Z"
+   committed-date="2015-01-27T03:01:01.125000Z"
+   checksum="22bfbc026ef388d3ae6c496328f75631"
+   last-author="lichunjiang"
+   kind="file"
+   revision="5523"/>
+<entry
+   committed-rev="5523"
+   name="font-awesome.min.css"
+   text-time="2015-01-21T09:37:08.113823Z"
+   committed-date="2015-01-27T03:01:01.125000Z"
+   checksum="feda974a77ea5783b8be673f142b7c88"
+   last-author="lichunjiang"
+   kind="file"
+   revision="5523"/>
+</wc-entries>

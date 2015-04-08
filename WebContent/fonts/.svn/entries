@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5521"
+   name=""
+   committed-date="2015-01-27T01:44:31.609375Z"
+   url="svn://193.168.1.99/Projects/TongFang/TFbiz/pototype/fonts"
+   last-author="lichunjiang"
+   kind="dir"
+   repos="svn://193.168.1.99"
+   revision="5521"/>
+<entry
+   committed-rev="5521"
+   name="glyphicons-halflings-regular.ttf"
+   text-time="2015-01-22T09:14:46.116467Z"
+   committed-date="2015-01-27T01:44:31.609375Z"
+   checksum="e18bbf611f2a2e43afc071aa2f4e1512"
+   last-author="lichunjiang"
+   kind="file"
+   prop-time="2015-01-27T01:43:11.072457Z"/>
+<entry
+   committed-rev="5521"
+   name="fontawesome-webfont.eot"
+   text-time="2015-01-21T07:41:55.533446Z"
+   committed-date="2015-01-27T01:44:31.609375Z"
+   checksum="7149833697a959306ec3012a8588dcfa"
+   last-author="lichunjiang"
+   kind="file"
+   prop-time="2015-01-27T01:43:11.136461Z"/>
+<entry
+   committed-rev="5521"
+   name="glyphicons-halflings-regular.svg"
+   text-time="2015-01-22T09:14:46.115467Z"
+   committed-date="2015-01-27T01:44:31.609375Z"
+   checksum="89889688147bd7575d6327160d64e760"
+   last-author="lichunjiang"
+   kind="file"/>
+<entry
+   committed-rev="5521"
+   name="glyphicons-halflings-regular.woff"
+   text-time="2015-01-22T09:14:46.117467Z"
+   committed-date="2015-01-27T01:44:31.609375Z"
+   checksum="fa2772327f55d8198301fdb8bcfc8158"
+   last-author="lichunjiang"
+   kind="file"
+   prop-time="2015-01-27T01:43:11.192464Z"/>
+<entry
+   committed-rev="5521"
+   name="glyphicons-halflings-regular.woff2"
+   text-time="2015-01-22T09:14:46.119467Z"
+   committed-date="2015-01-27T01:44:31.609375Z"
+   checksum="448c34a56d699c29117adc64c43affeb"
+   last-author="lichunjiang"
+   kind="file"
+   prop-time="2015-01-27T01:43:10.891447Z"/>
+<entry
+   committed-rev="5521"
+   name="fontawesome-webfont.ttf"
+   text-time="2015-01-21T07:41:55.537447Z"
+   committed-date="2015-01-27T01:44:31.609375Z"
+   checksum="c4668ed2440df82d3fd2f8be9d31d07d"
+   last-author="lichunjiang"
+   kind="file"
+   prop-time="2015-01-27T01:43:11.217465Z"/>
+<entry
+   committed-rev="5521"
+   name="fontawesome-webfont.svg"
+   text-time="2015-01-21T07:41:55.535447Z"
+   committed-date="2015-01-27T01:44:31.609375Z"
+   checksum="65bcbc899f379216109acd0b6c494618"
+   last-author="lichunjiang"
+   kind="file"/>
+<entry
+   committed-rev="5521"
+   name="glyphicons-halflings-regular.eot"
+   text-time="2015-01-22T09:14:46.113467Z"
+   committed-date="2015-01-27T01:44:31.609375Z"
+   checksum="f4769f9bdb7466be65088239c12046d1"
+   last-author="lichunjiang"
+   kind="file"
+   prop-time="2015-01-27T01:43:10.924448Z"/>
+<entry
+   committed-rev="5521"
+   name="fontawesome-webfont.woff"
+   text-time="2015-01-21T07:41:55.538447Z"
+   committed-date="2015-01-27T01:44:31.609375Z"
+   checksum="d95d6f5d5ab7cfefd09651800b69bd54"
+   last-author="lichunjiang"
+   kind="file"
+   prop-time="2015-01-27T01:43:11.080457Z"/>
+<entry
+   committed-rev="5521"
+   name="FontAwesome.otf"
+   text-time="2015-01-21T07:41:55.532446Z"
+   committed-date="2015-01-27T01:44:31.609375Z"
+   checksum="19231917733e2bcdf257c9be99cdbaf1"
+   last-author="lichunjiang"
+   kind="file"
+   prop-time="2015-01-27T01:43:11.130460Z"/>
+</wc-entries>

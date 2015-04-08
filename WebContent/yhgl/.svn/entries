@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5522"
+   name=""
+   committed-date="2015-01-27T02:59:56.703125Z"
+   url="svn://193.168.1.99/Projects/TongFang/TFbiz/pototype/yhgl"
+   last-author="lichunjiang"
+   kind="dir"
+   repos="svn://193.168.1.99"
+   revision="5522"/>
+<entry
+   committed-rev="5522"
+   name="jsgl.html"
+   text-time="2015-01-27T02:28:21.816503Z"
+   committed-date="2015-01-27T02:59:56.703125Z"
+   checksum="b0361180cb00a025f26e49e5d3808bbe"
+   last-author="lichunjiang"
+   kind="file"/>
+<entry
+   committed-rev="5522"
+   name="spgl.html"
+   text-time="2015-01-27T01:33:13.009250Z"
+   committed-date="2015-01-27T02:59:56.703125Z"
+   checksum="6fcbb526b208234c6d4a795dcf61a98b"
+   last-author="lichunjiang"
+   kind="file"/>
+<entry
+   committed-rev="5522"
+   name="grxx.html"
+   text-time="2015-01-25T07:04:03.653216Z"
+   committed-date="2015-01-27T02:59:56.703125Z"
+   checksum="d4c460f9cf4dd387366ae6364d78a3ad"
+   last-author="lichunjiang"
+   kind="file"/>
+</wc-entries>
